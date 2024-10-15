@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <form action="12.html" method="get">
+        <fieldset>
+        <legend style="text-align: center;">Form</legend>
+            
+            <br>
+            <br>
+      
+      <label for="fname"  >First Name:</label>
+      <input placeholder="Enter your name" type="text" name="fname" id="fname">
+      
+      <br>
+      
+      
+      <label for="lname">Last Name:</label>
+      <input type="text" name="lname" id="lname">
+
+      <br>
+
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age">
+
+      <br>
+
+      <label for="mb">Mobile Number</label>
+      <input type="tel" name="mb" id="mb" maxlength="10" pattern="{0-9}">
+
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+
+      <br>
+
+      <label for="pass">Password</label>
+      <input type="password" name="pass" id="pass">
+
+      <br>
+
+      <label for="add">Address:</label>
+        <textarea rows="10" cols="30" name="add" id="add">
+
+        </textarea>
+        
+      <br>
+
+      <label for="gender">Gender:&nbsp;</label>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female">
+
+      <br>
+
+      <label for="sports">Sports:</label>
+      <br>
+      <label for="cricket">Cricket</label>
+      <input type="checkbox" name="sports" id="cricket" value="cricket">
+      <label for="FootBall">FootBall</label>
+      <input type="checkbox" name="sports" id="FootBall" value="FootBall">
+      <label for="VolleyBall">VolleyBall</label>
+      <input type="checkbox" name="sports" id="VolleyBall" value="VolleyBall">
+
+      <br>
+
+      <label for="language">Favourite Language</label>
+      <input list="languages"name="languages">
+      <datalist id="languages">
+      <option value="c++">  
+      <option value="Java"> 
+      <option value="ASP.NET"> 
+      <option value="PHP"> 
+      <option value="C sharp"> 
+      </datalist>
+      
+    
+
+
+      <br>
+      <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+</center>
+</body>
+</html>
