@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        @keyframes ss
+        {
+            0% 
+            {    
+                background-color:green;
+                left: 0px;
+                top: 0px;
+                transform: rotate(100deg);
+            }
+            25% 
+            { 
+                background-color:red;
+                left: 100px;
+                top: 0px;
+                opacity: 0.50;
+            }
+            50% 
+            {
+                background-color:orange;
+                left: 100px;
+                top: 100px;
+                opacity: 1;
+            }
+            75% 
+            { 
+                background-color:yellow;
+                left:0px;
+                top: 100px;
+                transform: rotate(380deg);
+            }
+            100% 
+            { 
+                background-color:yellow;
+                left: 0px;
+                top: 0px;
+                border-radius: 50px;
+            }
+        }
+        p
+        {
+            animation-name: ss;
+            animation-duration: 5s;
+            background-color: green;
+            position: relative;
+            height: 100px;
+            width: 100px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <p></p>
+    
+</body>
+</html> 

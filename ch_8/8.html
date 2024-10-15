@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<head><style>
+/* animation code */
+@keyframes example{ 
+    from{ left:0px;}
+    to{ left: 300px;}
+}
+/* element to which animation is applied */
+p{
+    width:100px;
+    height:50px;
+    background-color:yellow;
+    font-weight:bold;
+    position:relative;
+    animation:example 5s infinite;
+}
+#p1{ animation-timing-function:linear;}
+#p2{ animation-timing-function:ease;}
+#p3{ animation-timing-function:ease-in;}
+#p4{ animation-timing-function:ease-out;}
+#p5{ animation-timing-function:ease-in-out;}
+</style></head>
+
+<body>
+<p id="p1">linear</p>
+<p id="p2">ease</p>
+<p id="p3">ease-in</p>
+<p id="p4">ease-out</p>
+<p id="p5">ease-in-out</p>
+</body>
+</html>
