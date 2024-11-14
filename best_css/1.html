@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .text
+{
+    font-size: 4rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    gap: 1rem;
+}
+
+.letter
+{
+    transition: transform 0.5s , opacity 0.3s;
+    cursor: pointer;
+}
+
+.letter:hover
+{
+    transform: translate3d(30px , -30px , 20px);
+    rotate: (360deg);
+    opacity: 0.5;
+}
+    </style>
+
+</head>
+
+<!-- .text>span.letter*8 -->
+
+<body bgcolor="black">
+    <div class="text">
+    <span class="letter">D</span>
+    <span class="letter">A</span>
+    <span class="letter">R</span>
+    <span class="letter">K</span>
+    <span class="letter">C</span>
+    <span class="letter">S</span>
+    <span class="letter">S</span>
+</div>
+</body>
+</html>
