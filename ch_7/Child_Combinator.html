@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Combinator Example</title>
+    <style>
+        /* Styling all <p> elements inside .parent (including nested ones) */
+        .parent p 
+        {
+            color: gray;           /* Makes all <p> gray by default */
+            font-style: italic;    /* Italicizes the text */
+        }
+
+        /* Styling direct child paragraphs of .parent */
+        .parent > p 
+        {
+            color: red; /* Makes direct child <p> red */
+            font-weight: bold;     /* Bold text for emphasis */
+            font-size: 1.2rem;     /* Slightly larger text size */
+        }
+    </style>
+</head>
+<body>
+    <h1>Child Combinator Example</h1>
+    <div class="parent">
+        <p>This is a direct child paragraph.</p>
+        <div>
+            <p>This is a nested paragraph inside a div.</p>
+        </div>
+    </div>
+</body>
+</html>
